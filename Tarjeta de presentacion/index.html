@@ -13,7 +13,7 @@
     background-position: center; 
     background-repeat: no-repeat;
     margin: 0;
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: 'Courier New', monospace;
     display: flex;
     height: 100vh;
     align-items: center;
@@ -28,10 +28,10 @@
     background-size: cover;      
     background-position: center; 
     background-repeat: no-repeat;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 22px;
+    box-shadow: 0 30px 64px rgba(0, 0, 0, 0.15);
     padding: 2rem;
-    max-width: 340px;
+    max-width: 640px;
     text-align: center;
     }
 
@@ -53,13 +53,14 @@
     ============================== */
     .card h1 {
       color: #000000;
-      margin: 0.5rem 0 1rem 0;
+      margin: 2rem 0 1rem 0;
       font-size: 1.6rem;
     }
 
     .card p {
-      color: #333;
-      font-size: 0.95rem;
+      color: rgb(0, 55, 206);
+      margin: 2rem 0 1rem 0;
+      font-size: 1.6rem;
     }
 
     /* =============================
@@ -78,6 +79,38 @@
       border-radius: 8px;
       padding: 0.3rem 1rem;
       display: inline-block;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+        .interests li:hover {
+      background: grey ;
+    }
+
+        /* =============================
+       Adicionales
+    ============================== */
+    .adicionales {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0;
+    }
+
+    .adicionales li {
+      background: #a10303;
+      color: #000000;
+      margin: 0.5rem 0;
+      border-radius: 8px;
+      padding: 0.3rem 1rem;
+      display: inline-block;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+        .adicionales li:hover {
+      background: rgb(0, 0, 0) ;
     }
 
     /* =============================
@@ -115,6 +148,7 @@
 
     <!-- LISTA DE INTERESES -->
     <ul class="interests">
+      <h1>Mis intereses</h1>
       <li>Cocina</li>
       <li>Videojuegos</li>
       <li>Viajes</li>
@@ -124,6 +158,16 @@
       <li>Animales</li>
       <li>Filosofia</li>
     </ul>
+        <!-- adicionales -->
+    <ul class="adicionales">
+      <h1>Adicionales</h1>
+      <li>Furry</li>
+      <li>Friki</li>
+      <li>Futuro ingeniero</li>
+      <li>Buen amigo</li>
+      <li>Biblioteca andante</li>
+    </ul>
+
 
     <!-- ENLACE FAVORITO -->
     <a href="https://www.youtube.com/watch?v=ppYwTqA5FY4" target="_blank">¡Este canal es de un amigo, participe en el video!</a>
