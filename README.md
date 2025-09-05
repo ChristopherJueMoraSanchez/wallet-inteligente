@@ -1,13 +1,10 @@
-# Evidencia de trabajo en equipo y prácticas ágiles
+# Bienvenido
 
-## Organización
-- Se utilizó un backlog con las siguientes tareas:
-  - Investigación de la problemática.
-  - Redacción del documento en Google Docs.
-  - Creación del archivo `problematica.md`.
-  - Subida de cambios al repositorio.
+En este repositorio creado solamente por peticiones de mi profesor, veran todo lo que tengo pensado para un futuro proyecto. El cual, tendra que englobar todo lo que he aprendido durante mi semestro de 6to, siendo un proyecto conjunto para entregarlo y que dejen de molestarme.
 
-## Prácticas ágiles
-- Uso de commits como evidencia de avance.
-- Colaboración en Google Docs para redacción conjunta.
-- Aplicación de mejora continua con retroalimentación del equipo.
+## Segmentos
+ - Problematica que se tendra que solucionar.
+ - Documentación del proyecto.
+ - Avances del proyecto.
+ - El proyecto ya terminado.
+ - Cosas adicionales que sean agregadas por peticion de los profesores (Más el de programación web).

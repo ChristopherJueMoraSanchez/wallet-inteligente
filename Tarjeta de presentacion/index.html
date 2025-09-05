@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarjeta de Presentación Digital</title>
+  <style>
+    /* =============================
+       ESTILOS GENERALES
+    ============================== */
+    body {
+    background-image: url('Background2.png');
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    }
+
+    /* =============================
+    TARJETA
+    ============================== */
+    .card {
+    background-image: url('Background1.png');
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    padding: 2rem;
+    max-width: 340px;
+    text-align: center;
+    }
+
+
+    /* =============================
+       AVATAR
+    ============================== */
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid #000000;
+      margin-bottom: 1rem;
+      object-fit: cover;
+    }
+
+    /* =============================
+       NOMBRE Y DESCRIPCIÓN
+    ============================== */
+    .card h1 {
+      color: #000000;
+      margin: 0.5rem 0 1rem 0;
+      font-size: 1.6rem;
+    }
+
+    .card p {
+      color: #333;
+      font-size: 0.95rem;
+    }
+
+    /* =============================
+       LISTA DE INTERESES
+    ============================== */
+    .interests {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0;
+    }
+
+    .interests li {
+      background: #e3eafd;
+      color: #000000;
+      margin: 0.5rem 0;
+      border-radius: 8px;
+      padding: 0.3rem 1rem;
+      display: inline-block;
+    }
+
+    /* =============================
+       ENLACE FAVORITO
+    ============================== */
+    .card a {
+      text-decoration: none;
+      color: #fff;
+      background: #000000;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+      display: inline-block;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+
+    .card a:hover {
+      background: grey ;
+    }
+  </style>
+</head>
+<body>
+  <!-- =============================
+       CONTENEDOR DE LA TARJETA
+  ============================== -->
+  <div class="card">
+
+    <!-- AVATAR -->
+    <img src="avatar.png" alt="Avatar">
+
+    <!-- NOMBRE Y DESCRIPCIÓN -->
+    <h1>Christopher Mora (ConkerBadGuy/Skeletor/BlackTheCat)</h1>
+    <p>Solitario y amistoso, dependiendo de como seas conmigo. Abajo estas mis intereses por si compartimos alguno.</p>
+
+    <!-- LISTA DE INTERESES -->
+    <ul class="interests">
+      <li>Cocina</li>
+      <li>Videojuegos</li>
+      <li>Viajes</li>
+      <li>Juegos de Mesa</li>
+      <li>Juegos de cartas</li>
+      <li>Series y peliculas</li>
+      <li>Animales</li>
+      <li>Filosofia</li>
+    </ul>
+
+    <!-- ENLACE FAVORITO -->
+    <a href="https://www.youtube.com/watch?v=ppYwTqA5FY4" target="_blank">¡Este canal es de un amigo, participe en el video!</a>
+  </div>
+</body>
+</html>
