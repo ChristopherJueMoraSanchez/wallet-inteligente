@@ -1,4 +1,3 @@
-# Problemática: Falla de control financiero personal en la población
 # Problemática: Falta de control financiero personal en la población
 
 El manejo inadecuado de las finanzas personales es una problemática de alto impacto social. En México, solo el **31% de los adultos lleva un registro de sus gastos**, mientras que más del **50% no ahorra de manera formal** (INEGI, 2021). Esta situación genera sobreendeudamiento, baja capacidad de ahorro y vulnerabilidad económica ante emergencias.  
