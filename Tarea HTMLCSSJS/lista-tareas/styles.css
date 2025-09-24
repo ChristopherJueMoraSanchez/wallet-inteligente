@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.tareas {
+  background: rgb(143, 143, 143);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(255, 0, 0, 0.50);
+}
+
+ul {
+  margin-top: 15px;
+  padding: 0;
+  list-style: none;
+}
+li {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  background: #000000;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
