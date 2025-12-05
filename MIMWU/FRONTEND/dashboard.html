@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>MIMWU - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo"></div>
+    <button onclick="logout()">Cerrar sesión</button>
+  </header>
+
+  <main>
+
+    <!-- SECCIÓN CUENTAS -->
+    <section id="wallet-section">
+      <h2>Mis Cuentas</h2>
+      <div id="accounts">Cargando cuentas...</div>
+      <button onclick="loadTransactions()">Ver transacciones</button>
+    </section>
+
+    <!-- SECCIÓN GRÁFICAS -->
+    <section id="charts">
+      <h2>Visualización Financiera</h2>
+      <canvas id="gastosChart"></canvas>
+      <canvas id="ingresosChart"></canvas>
+      <button onclick="actualizarGraficos()">Actualizar gráficas</button>
+    </section>
+
+    <!-- REGISTRAR CUENTA -->
+    <section id="add-account-section">
+      <h2>Registrar nueva cuenta bancaria</h2>
+      <form id="createAccountForm">
+        <input type="text" id="accountName" placeholder="Nombre de la cuenta" required>
+        <input type="text" id="accountType" placeholder="Tipo de cuenta" required>
+        <input type="number" id="accountBalance" placeholder="Saldo inicial" required>
+        <button type="submit">Registrar cuenta</button>
+      </form>
+    </section>
+
+    <!-- TARJETAS (opcional, no afecta nada) -->
+    <section id="cards">
+      <h2>Registrar tarjeta</h2>
+      <form id="createCardForm">
+        <input id="cardNumber" placeholder="Número de tarjeta" required>
+        <select id="cardType">
+          <option value="debito">Débito</option>
+          <option value="credito">Crédito</option>
+        </select>
+        <input id="cardLimit" type="number" placeholder="Límite (crédito)">
+        <button type="submit">Registrar</button>
+      </form>
+    </section>
+
+    <!-- TRANSFERENCIAS -->
+    <section id="transfer">
+      <h2>Transferencias</h2>
+      <form id="transferForm">
+        <input id="transferFrom" type="number" placeholder="Cuenta origen" required>
+        <input id="transferTo" type="number" placeholder="Cuenta destino" required>
+        <input id="transferAmount" type="number" placeholder="Monto" required>
+        <button type="submit">Transferir</button>
+      </form>
+    </section>
+
+    <!-- INTELIGENCIA ARTIFICIAL -->
+    <section id="ai-section">
+      <h2>Inteligencia Financiera</h2>
+      <button onclick="loadAnalytics()">Analizar movimientos</button>
+      <div id="ai-results"></div>
+    </section>
+
+  </main>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

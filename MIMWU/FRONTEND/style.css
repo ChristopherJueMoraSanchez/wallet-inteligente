@@ -1,0 +1,103 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #1a1f2b, #232a3a);
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background: #141824;
+  border-bottom: 2px solid #00c896;
+}
+
+h1{
+  color: #00c896;
+}
+
+.auth-container {
+  text-align: center;
+  margin-top: 5em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 300px;
+  margin: 0 auto;
+}
+
+input, button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #00c896;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #00e2aa;
+}
+
+.link a {
+  color: #00c896;
+  text-decoration: none;
+}
+
+main {
+  padding: 2em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+canvas {
+  max-width: 400px;
+  margin: 1em auto;
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.account {
+  background: #fff;
+  color: #222;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+  margin: 0px 0px 0px 60px;
+  background-image: url('logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Titulo {
+  text-align: center;
+  color: #00c896;
+  margin-bottom: 20px;
+}
+
+.link {
+  text-align: center;
+  color: #fff;
+  margin-top: 15px;
+}
